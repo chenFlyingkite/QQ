@@ -57,6 +57,8 @@ include ':logs'
  
  (左邊選 project) > (右邊有 Properties, Build Types, ...) 選 Dependencies > Add > Module Dependency
 
+![Image][100]
+
 4. **引用 library 使用的 project : 參考 [jitpack][6]**
 * 在 build.gradle 加上
 ```gradle
@@ -82,3 +84,5 @@ dependencies {
 [4]: https://github.com/chenFlyingkite/QQ/blob/master/app/src/main/java/com/flyingkite/qq/MainActivity.java
 [5]: https://github.com/chenFlyingkite/QQ/blob/master/app/build.gradle
 [6]: https://jitpack.io/
+
+[100]: https://github.com/chenFlyingkite/QQ/blob/master/images/add_module.png
