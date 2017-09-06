@@ -40,7 +40,8 @@ include ':logs'
  ```gradle
  apply plugin: 'com.android.library'
  apply plugin: 'com.github.dcendents.android-maven'
- group='com.github.chenFlyingkite'
+ 
+ group = 'com.github.chenFlyingkite'
   ...
  dependencies {
     //compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -64,7 +65,9 @@ include ':logs'
 ```gradle
 allprojects {
     repositories {
-        maven { url "https://jitpack.io" }
+        maven {
+            url "https://jitpack.io" 
+        }
     }
 }
 ```
